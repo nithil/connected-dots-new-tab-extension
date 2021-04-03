@@ -1,0 +1,20 @@
+{
+  "name": "connected-dots-new-tab-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to provide connected dots glowing on hover",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d vendor",
+    "minify": "minify src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nithil/connected-dots-new-tab-extension"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2"
+  }
+}
